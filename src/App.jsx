@@ -4,7 +4,6 @@ import Footer from './Footer.jsx'
 import Navigation from './Navigation.jsx'
 
 
-
 function App() {
   return (
     <>

@@ -4,7 +4,7 @@ function Header(){
     return(
         <header>
            
-            <h1> McDermott Portfolio</h1>
+            <h1> Travis McDermott </h1>
             
         </header>
     );

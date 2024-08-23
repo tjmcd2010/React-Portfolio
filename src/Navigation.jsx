@@ -1,15 +1,29 @@
-
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
 function Navigation() {
    return(
-    <nav>
+    <nav className = "nav">
+        <Link to = "/" className = "about-me">
+        
+        </Link>
         <ul>
-            <li><a href = "./about.html"> About Me</a></li>
-            <li><a href = "#">Portfolio</a></li>
-            <li><a href = "#">Contact</a></li>
-            <li><a href = "#">Resume</a></li>
+            <CustomLink to = "/"> About</CustomLink>
+            <CustomLink to = "/portfolio">Portfolio</CustomLink>
+            <CustomLink to = "/Contact">Contact</CustomLink>
+            <CustomLink to = "/Resume">Resume</CustomLink>
         </ul>
     </nav>    
-   );
+   )
+}
+function CustomLink ({ to, children, ...props }){
+ const resolvedPath = useResolvedPath(to)  
+ const isActive = useMatch({ path: resolvedPath.pathname, end: true }) 
+    return(
+        <li className = {isActive ? "active" : ""}>
+            <Link to = {to} {...props}>
+                {children}
+            </Link>
+        </li>
+    )
 }
 
 export default Navigation

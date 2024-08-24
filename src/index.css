@@ -85,7 +85,21 @@ header img {
       max-width: 800px; /* Adjust this value as needed */
       margin: 0 auto; /* Center the content horizontally */
     }
-
+    .about {
+      border: 1px solid;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+    }
+    .about-image {
+      max-width: 200px;
+    }
+  
     html, body {
       height: 100%;
       margin: 0;

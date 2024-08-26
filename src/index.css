@@ -81,7 +81,14 @@ header img {
       z-index: 997; /* Ensure the footer is above other elements */
       max-height: 15px;
     }
+    .social-links a {
+      margin-left: 10px;
+    }
     
+    .social-links img {
+      width: 30px;
+      height: 30px;
+    }
     .footer-content {
       max-width: 800px; /* Adjust this value as needed */
       margin: 0 auto; /* Center the content horizontally */

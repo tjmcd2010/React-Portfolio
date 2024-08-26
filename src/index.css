@@ -79,6 +79,7 @@ header img {
       padding: 20px;
       text-align: center;
       z-index: 997; /* Ensure the footer is above other elements */
+      max-height: 15px;
     }
     
     .footer-content {
@@ -99,6 +100,32 @@ header img {
     .about-image {
       max-width: 200px;
     }
+    .portfolio-cards {
+      border: 1px solid;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 20px;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      max-width: 250px;
+      max-height: 300px;
+      border-style: solid;
+      border-width: 10px;
+      padding: 10px;
+      margin: 30px;
+      flex: 0 0 300px;
+      box-shadow: 5px 10px #888888;
+      border-radius: 20px;
+      max-height: 250px;
+      justify-content: space-evenly;;
+    }
+  
+  .portfolio-image {
+    max-width: 200px;
+  }
   
     html, body {
       height: 100%;
@@ -132,8 +159,30 @@ form {
   justify-content: center;
 }
 
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
 
-
+.download-button:hover {
+  background-color: #0056b3;
+}
+.resume {
+  border: 1px solid;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

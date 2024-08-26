@@ -1,11 +1,14 @@
-
-function Resume (){
+import resumePDF from  '../assets/resume.pdf'
+function Resume() {
     return (
-        <div>
-            <h2>Resume Page</h2>
-            <p> This section is all about resumes</p>
-        </div>
+      <div className = "resume">
+        
+        <p>Click the button below to download my resume:</p>
+        <a href={resumePDF} download="resume.pdf" className="download-button">
+          Download Resume
+        </a>
+      </div>
     );
-}
+  }
 
 export default Resume

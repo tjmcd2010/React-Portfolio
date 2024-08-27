@@ -92,7 +92,7 @@ function MyComponent() {
           <textarea name="message" value={message} onChange={handleChange} onBlur={handleBlur} />
           {messageError && <p style={{ color: 'red' }}>{messageError}</p>}
           <br /><br />
-          <button type="submit">Submit</button>
+          <button class = "submit-button" type="submit">Submit</button>
         </div>
       </form>
     </>

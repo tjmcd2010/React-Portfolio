@@ -8,8 +8,7 @@ function Navigation() {
         <ul>
             <CustomLink to = "/"> About Me</CustomLink>
             <CustomLink to = "/portfolio">Portfolio</CustomLink>
-            <CustomLink to = "/Contact">Contact</CustomLink>
-            <CustomLink to = "/Card">Resume</CustomLink>
+            <CustomLink to = "/Resume">Resume</CustomLink>
         </ul>
     </nav>    
    )

@@ -9,7 +9,7 @@ function Navigation() {
             <CustomLink to = "/"> About Me</CustomLink>
             <CustomLink to = "/portfolio">Portfolio</CustomLink>
             <CustomLink to = "/Contact">Contact</CustomLink>
-            <CustomLink to = "/Resume">Resume</CustomLink>
+            <CustomLink to = "/Card">Resume</CustomLink>
         </ul>
     </nav>    
    )
